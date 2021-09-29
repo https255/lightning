@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.canvas{
+    box-shadow: 0px 0px 3px #ccc ;
+    /*background: rgb(101,130,138);*/
+    background: #000;
+}
+.con{
+    top: 30px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    z-index: 9999;
+    font-family: monospace;
+}
+input{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
